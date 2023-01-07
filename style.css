@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+button {
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+}
+
+.header {
+    background-color: #1f2937;
+    padding: 12px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 20pt;
+    color: white;
+}
+
+.first {
+    height: 400px;
+    background-color: #1f2937;
+    padding: 12px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0 16px;
+    padding: 0;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 12pt;
+}
+
+.first .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 8px;
+}
+
+.first .left .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.first .left .info {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.first .right {
+    padding-right: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.first .right .image {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    height: 200px;
+}
