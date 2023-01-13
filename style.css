@@ -13,16 +13,18 @@ button {
     color: white;
     border: none;
     padding: 8px 24px;
+    font-weight: bold;
 }
 
 button:hover {
-
+    background: #2757a3;
+    color:rgba(255, 255, 255, 0.813);
+    cursor: pointer;
 }
-
 
 .header {
     background-color: #12171f;
-    padding: 12px 100px;
+    padding: 12px 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,7 +34,7 @@ button:hover {
 
 .first {
     background-color: #1f2937;
-    padding: 12px 100px;
+    padding: 12px 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +55,10 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 12pt;
+}
+
+li:hover {
+    text-decoration: underline white 1.5pt;
 }
 
 .first .left {
@@ -171,7 +177,7 @@ a {
     align-items: flex-start;
     justify-content: center;
     gap: 10px;
-    padding: 40px 100px;
+    padding: 40px 150px;
     text-align: center;
     flex: 1 1 300px;
 }
@@ -186,10 +192,6 @@ a {
     font-size: 20px;
     color: #f9faf8;
     font-weight: 100;
-}
-
-.fourth button {
-    font-weight: bold;
 }
 
 .footer {
